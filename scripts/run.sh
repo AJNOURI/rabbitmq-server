@@ -7,4 +7,4 @@ fi
 
 # Start RabbitMQ
 echo "Starting RabbitMQ..."
-/usr/sbin/rabbitmq-server
+su -m rabbitmq -c /usr/sbin/rabbitmq-server
